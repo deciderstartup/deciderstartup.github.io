@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>DECIDER</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,26 +12,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Nunito", sans-serif}
 
 body, html {
   height: 100%;
-  line-height: 1.8;
   background-color:black;
   
 }
 
 
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-position-y: 40px;
-  background-size: cover;
-  background-image: url("img/startslide_04.png");
-  min-height: 100%;  
-  background-repeat: no-repeat;
-}
-
 .w3-bar .w3-button {
   padding: 16px;
 }
-
 .c-purple {
   color:#701AFF;
 }
@@ -48,7 +36,7 @@ body, html {
     <div class="w3-right w3-hide-small">
       <a href="#vision" class="w3-bar-item w3-button">VISION</a>
       <a href="#mission" class="w3-bar-item w3-button"> MISSION</a>
-      <a href="#kontakt" class="w3-bar-item w3-button"> KONTAKT</a>
+      <a href="#kontakt" class="w3-bar-item w3-button"> KONTAKT &amp; TEAM</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -66,24 +54,12 @@ body, html {
   <a href="#kontakt" onclick="w3_close()" class="w3-bar-item w3-button">KONTAKT</a>
 </nav>
 
-<!-- Header with full-height image -->
-<!--
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">  
- </header>
--->
-
-
 
  <!-- About Section -->
  <div class="w3-container w3-black" style="padding-top:100px" id="logo">  
-  <div class="w3-center">
-    <div style="padding-bottom:70px;"><img src="img/decider_logo_01.png" alt="Logo" style="object-fit: contain"></div>
-    <div style="padding-bottom:70px;"><img src="img/decider_claim_02.png" alt="Logo" style="object-fit: contain"></div>
-    <!--<p class="w3-xxxlarge" style="padding-bottom:50px; margin-bottom:0px" ><b>Gründungs&shy;simulation für nachhaltige<br/>unternehmerische Entscheidungen.</b></p>    -->
-    <div class="w3-hide-small w3-hide-large" style="border:0px solid cyan; padding-bottom:70px;"><img src="img/decider_header_03.png" alt="Logo"></div>
-    <div class="w3-hide-small w3-hide-medium" style="border:0px solid cyan; padding-bottom:70px;"><img src="img/decider_header_02.png" alt="Logo"></div>
-    <div style="border:0px solid cyan; padding-bottom:70px;"><img src="img/decider_th_coco_logos_01.png" alt="Logo" style="object-fit: contain"></div>
-    
+  <div class="w3-center">    
+    <div class="w3-hide-large" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_s.png" alt="Logo"></div>
+    <div class="w3-hide-small w3-hide-medium" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_l.png" alt="Logo"></div>    
   </div>  
 </div>
 
@@ -91,32 +67,31 @@ body, html {
 <div class="w3-container" style="padding:128px 16px; background-color: white;" id="vision">
   <h3 class="w3-center w3-xxxlarge w3-wide">VISION</h3>
   <!--<p class="w3-center w3-large">Key features of our company</p>-->
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-leaf w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-xlarge c-purple"><b>Nachhaltiges<br/>Wirtschaften</b></p>
-      <p class="w3-large">Multiple Erfolgskriterien</p>
+  <div class="w3-row w3-center" style="margin-top:64px">
+    <div class="w3-quarter w3-margin-top w3-margin-bottom" style="min-width: 150px;">
+      <i class="fa fa-leaf w3-jumbo w3-center c-purple"></i>
+      <p class="w3-xlarge"><b>Nachhaltiges<br/>Wirtschaften</b></p>
+      <p class="w3-large">Multiple Erfolgs&shy;kriterien</p>
       <p class="w3-large">ESG-Kennzahlen mitgedacht</p>
       <p class="w3-large">Zielgruppe über BWL-Studiengänge hinaus</p>
     </div>
-    <div class="w3-quarter">
-      <i class="fa fa-bullhorn w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-xlarge c-purple"><b>Entrepreneurship<br/>spielerisch erleben</b></p>
+    <div class="w3-quarter w3-margin-top w3-margin-bottom" style="min-width: 150px;">
+      <i class="fa fa-bullhorn w3-jumbo c-purple"></i>
+      <p class="w3-xlarge"><b>Entrepreneur&shy;ship<br/>spielerisch erleben</b></p>
       <p class="w3-large">Mentales Modell und iterative Prozesse</p>
       <p class="w3-large">Methoden wie Business Model Canvas</p>
-      <p class="w3-large">Nutzer:innengerechte Szenarien</p>
+      <p class="w3-large">Nutzer:innen&shy;gerechte Szenarien</p>
     </div>
-    <div class="w3-quarter">
-      <i class="fa fa-university w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-xlarge c-purple"><b>Spaß am Lernen<br/>dank Gamification</b></p>      
+    <div class="w3-quarter w3-margin-top w3-margin-bottom" style="min-width: 150px;">
+      <i class="fa fa-university w3-jumbo c-purple"></i>
+      <p class="w3-xlarge"><b>Spaß am Lernen<br/>dank Gamification</b></p>      
       <p class="w3-large">Didaktisch fundiertes Lernmodell</p>
-      <p class="w3-large">Kompetenzorientierte Lehre</p>
-      <p class="w3-large">Wissensvermittlung als integrales Feature</p>
-      
+      <p class="w3-large">Kompetenz&shy;orientierte Lehre</p>
+      <p class="w3-large">Wissens&shy;vermittlung als integrales Feature</p>      
     </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-xlarge c-purple"><b>Aktuelle<br/>Technologie</b></p>
+    <div class="w3-quarter w3-margin-top w3-margin-bottom" style="min-width: 150px;">
+      <i class="fa fa-cog w3-jumbo c-purple"></i>
+      <p class="w3-xlarge"><b>Aktuelle<br/>Technologie</b></p>
       <p class="w3-large">Moderne User Experience</p>
       <p class="w3-large">Sinnvolle KI-Integration</p>
       <p class="w3-large">User-zentrierte, agile Entwicklung</p>
@@ -124,37 +99,97 @@ body, html {
   </div>
 </div>
 
+
 <!-- About Section -->
 <div class="w3-container w3-black" style="padding:128px 16px" id="mission">
-  <h3 class="w3-center w3-xxlarge">MISSION</h3>
+  <h3 class="w3-center w3-xxxlarge w3-wide">MISSION</h3>
   <!--<p class="w3-center w3-large">Key features of our company</p>-->
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-col">
+    
+    <div class="w3-col w3-hide-medium w3-hide-large ">
+      <i class="fa fa-quote-left w3-margin-bottom w3-xxxlarge w3-center c-purple"></i>
+      <p class="w3-xlarge"><i>Wir helfen Studierenden,<br/>die eine sinnvolle Zukunft gestalten wollen,<br/> indem wir sie dazu befähigen,<br/>nachhaltige unternehmerische Entscheidungen<br/>souverän zu treffen.</i></p>     
+      <i class="fa fa-quote-right w3-margin-bottom w3-xxxlarge w3-center c-purple"></i>
+    </div>
+
+    <div class="w3-col w3-hide-small ">
       <i class="fa fa-quote-left w3-margin-bottom w3-jumbo w3-center c-purple"></i>
-      <p class="w3-xxlarge">Wir helfen Studierenden,<br/>die eine sinnvolle Zukunft gestalten wollen,<br/>
-        indem wir sie dazu befähigen,<br/>nachhaltige unternehmerische Entscheidungen<br/>souverän zu treffen.</p>
+      <p class="w3-xxlarge"><i>Wir helfen Studierenden,<br/>die eine sinnvolle Zukunft gestalten wollen,<br/> indem wir sie dazu befähigen,<br/>nachhaltige unternehmerische Entscheidungen<br/>souverän zu treffen.</i></p>
+      <i class="fa fa-quote-right w3-margin-bottom w3-jumbo w3-center c-purple"></i>
     </div>
     
   </div>
 </div>
 
 
+<!-- Team Section -->
+<div class="w3-container w3-center" style="padding:128px 16px; padding-bottom:0; background-color: white; " id="kontakt">
+  <h3 class="w3-center w3-xxxlarge w3-wide">KONTAKT &amp; TEAM</h3>
+  <div style="background-color:#00AEFF; padding:5px; border-radius:5px; width:400px; margin:auto"><p class="w3-center w3-large">Interesse an einem Gespräch<br/>oder einer Demo unseres Prototyps?</p></div>
+  <p class="w3-center w3-large">Gerne bei Daniel Busch und/oder Markus Linden melden!</p>
+  <div style="text-align:center; margin-top:60px;">
+    <div style="padding-bottom:30px; display: inline-block; width:400px;">
+      <img src="img/decider_markus.png" style="width:149px; height:149px;">
+      <h3>Prof. Dr. Markus Linden</h3>
+      <p>Mentor</p>
+      <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;markus.linden(at)th-koeln.de</p>      
+      <p><i class="fa fa-linkedin"></i></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/markus-linden-797a6717/">LinkedIn</a></p>
+    </div>
+    <div style="padding-bottom:30px;display: inline-block; width:400px;">
+      <img src="img/decider_daniel.png" style="width:149px; height:149px;">
+      <h3>Daniel Busch</h3>
+      <p>Entwickler: Gameplay / UX / Texte</p>
+      <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;daniel.busch(at)smail.th-koeln.de</p>
+      <p><i class="fa fa-linkedin"></i></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniel-busch-cologne/">LinkedIn</a></p>
+    </div>
+  </div>
+</div>
+ 
+<div class="w3-container" style="background-color: white; " id="kontakt">
+  <p class="w3-center w3-xxlarge">Weitere Team-Mitglieder</p>
+  <div style="text-align:center; margin-top:60px;">
+    
+    <div style="padding-bottom:30px;display: inline-block; width:400px;">
+      <img src="img/decider_matthias.png" style="width:149px; height:149px;">
+      <h3>Matthias Marx</h3>
+      <p>Entwickler: Frontend / UI-UX-Design</p>
+    </div>
+    <div style="padding-bottom:30px; display: inline-block; width:400px;">
+      <img src="img/decider_luis.png" style="width:149px; height:149px;">
+      <h3>Luis Vidal</h3>
+      <p>Entwickler: Backend / DevOps</p>
+    </div>   
+    <div style="padding-bottom:30px;display: inline-block; width:400px;">
+      <img src="img/decider_benni.png" style="width:149px; height:149px;">
+      <h3>Benedikt Götemann</h3>
+      <p>Entwickler: Frontend / Backend</p>
+    </div>
+    <div style="padding-bottom:30px; display: inline-block; width:400px;">
+      <img src="img/decider_marc.png" style="width:149px; height:149px;">
+      <h3>Marc Unkelbach</h3>
+      <p>Entwickler: Frontend / UI-UX-Design</p>
+    </div>
+    <div style="padding-bottom:30px; display: inline-block; width:400px;">
+      <img src="img/decider_henning.png" style="width:149px; height:149px;">
+      <h3>Henning Brode</h3>
+      <p>Entwickler: Backend / UX-Design</p>
+    </div>
+    <div style="padding-bottom:30px;display: inline-block; width:400px;">
+      <img src="img/decider_frank.png" style="width:149px; height:149px;">
+      <h3>Frank Schimmel</h3>
+      <p>Entwickler: Mentor Agile Coding</p>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
-<!----
+
 <footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up"></i>&nbsp;TOP</a>
+  <p>Diese Website basiert auf <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> (mal was anderes)</p>
+  
 </footer>
--->
+
  
 <script>
 // Modal Image Gallery
