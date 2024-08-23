@@ -12,10 +12,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Nunito", sans-serif}
 
 body, html {
   height: 100%;
-  background-color:black;
-  
+  background-color:black;  
 }
-
 
 .w3-bar .w3-button {
   padding: 16px;
@@ -31,12 +29,14 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card" id="myNavbar" style="border-bottom:4px solid #701AFF; margin-bottom: 10px;">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">DECIDER</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><b>DECIDER</b></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#vision" class="w3-bar-item w3-button">VISION</a>
-      <a href="#mission" class="w3-bar-item w3-button"> MISSION</a>
-      <a href="#kontakt" class="w3-bar-item w3-button"> KONTAKT &amp; TEAM</a>
+      <a href="#mission" class="w3-bar-item w3-button">MISSION</a>
+      <a href="#onepager" class="w3-bar-item w3-button">ONEPAGER</a>
+      <a href="#screens" class="w3-bar-item w3-button">SCREENS &amp; WIREFRAMES</a>
+      <a href="#kontakt" class="w3-bar-item w3-button">KONTAKT &amp; TEAM</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -57,10 +57,13 @@ body, html {
  <!-- intro Section -->
 <div class="w3-container w3-black" style="padding-top:100px" id="home">  
   <div class="w3-center">    
-    <div class="w3-hide-large" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_s3.png" alt="DECIDER: Startup-Simulation für nachhaltige Unternehmerische Entscheidungen. "></div>
-    <div class="w3-hide-small w3-hide-medium" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_l3.png" alt="DECIDER: Startup-Simulation für nachhaltige Unternehmerische Entscheidungen"></div>    
+    <div class="w3-hide-large" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_s4.png" alt="DECIDER: Startup-Simulation für nachhaltige Unternehmerische Entscheidungen. "></div>
+    <div class="w3-hide-small w3-hide-medium" style="padding-bottom:70px;"><img class="w3-image" src="img/decider_intro_l4.png" alt="DECIDER: Startup-Simulation für nachhaltige Unternehmerische Entscheidungen"></div>    
   </div>  
+  
 </div>
+
+
 
 
 <!-- Vision Section -->
@@ -79,12 +82,12 @@ body, html {
       <i class="fa fa-bullhorn w3-jumbo c-purple"></i>
       <p class="w3-xlarge"><b>Entrepreneur&shy;ship<br/>spielerisch erleben</b></p>
       <p class="w3-large">Mentales Modell und iterative Prozesse</p>
-      <p class="w3-large">Methoden wie Business Model Canvas</p>
-      <p class="w3-large">Nutzer:innen&shy;gerechte Szenarien</p>
+      <p class="w3-large">Methoden wie Business Model Canvas & Lean Startup</p>
+      <p class="w3-large">Nutzer:innen-gerechte Szenarien</p>
     </div>
     <div class="w3-quarter w3-margin-top w3-margin-bottom" style="min-width: 150px;">
       <i class="fa fa-university w3-jumbo c-purple"></i>
-      <p class="w3-xlarge"><b>Spaß am Lernen<br/>dank Gamification</b></p>      
+      <p class="w3-xlarge"><b>Spaß beim Lernen<br/>dank Gamification</b></p>      
       <p class="w3-large">Didaktisch fundiertes Lernmodell</p>
       <p class="w3-large">Kompetenz&shy;orientierte Lehre</p>
       <p class="w3-large">Wissens&shy;vermittlung als integrales Feature</p>      
@@ -113,16 +116,88 @@ body, html {
       <i class="fa fa-quote-left w3-margin-bottom w3-jumbo w3-center c-purple"></i>
       <p class="w3-xxlarge"><i>Wir helfen Studierenden,<br/>die eine sinnvolle Zukunft gestalten wollen,<br/> indem wir sie dazu befähigen,<br/>nachhaltige unternehmerische Entscheidungen<br/>souverän zu treffen.</i></p>
       <i class="fa fa-quote-right w3-margin-bottom w3-jumbo w3-center c-purple"></i>
-    </div>    
+    </div> 
   </div>
 </div>
 
 
 
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px; background-color: #F9F9FA;" id="onepager">
+  <h3 class="w3-center w3-xxxlarge w3-wide">ONEPAGER</h3>
+  <div class="w3-center" style="margin-top:64px;">    
+    <div class="w3-hide-medium w3-hide-small" style="padding-bottom:70px;">
+      <img src="img/DECIDER_ONEPAGER_NEU_16_9_v2.png" style="width:40%" onclick="onClick(this)" class="w3-hover-opacity" alt="DECIDER Onepager">
+    </div>
+    <div class="w3-hide-large w3-hide-small" style="padding-bottom:70px;">
+      <img src="img/DECIDER_ONEPAGER_NEU_16_9_v2.png" style="width:70%" onclick="onClick(this)" class="w3-hover-opacity" alt="DECIDER Onepager">
+    </div>
+    <div class="w3-hide-large w3-hide-medium" style="padding-bottom:70px;">
+      <img src="img/DECIDER_ONEPAGER_NEU_16_9_v2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="DECIDER Onepager">
+    </div> 
+  </div>
+ 
+</div>
+
+
+<!-- Work Section -->
+<div class="w3-container w3-black" style="padding:128px 16px; color:#F9F9FA" id="screens">
+  
+  <h3 class="w3-center w3-xxxlarge w3-wide">SCREENS & WIREFRAMES</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="img/screen_personal.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Personalverwaltung  (Screenshot DECIDER Prototyp v0.1)">
+      <p class="w3-center">Prototyp: Personalverwaltung</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/screen_produktion.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Produktionssteuerung (Screenshot DECIDER Prototyp v0.1)">
+      <p class="w3-center">Prototyp: Produktionssteuerung</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/screen_dashboard.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Unternehmenskennzahlen (Screenshot DECIDER Prototyp v0.1)">
+      <p class="w3-center">Prototyp: Unternehmenskennzahlen</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/screen_chatgpt_test.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Erster Test KI-Integration (Screenshot DECIDER Prototyp v0.1)">
+      <p class="w3-center">Prototyp: Chatbot-Integration (Test)</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="img/wireframe_bmc_intro.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Setup via Business Model Canvas (Konzept)">
+      <p class="w3-center">Konzept: Setup via Business Model Canvas</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/wireframe_customer_jobs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minigame Customer Jobs  (Konzept)">
+      <p class="w3-center">Konzept: Minigame Customer Jobs</p>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="img/wireframe_contextual_inq.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Experimente nach Lean Startup (Konzept)">
+      <p class="w3-center">Konzept: Experimente nach Lean Startup</p>
+    </div>    
+    <div class="w3-col l3 m6">
+      <img src="img/wireframe_value_prop.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Value Proposition Design (Konzept)">
+      <p class="w3-center">Konzept: Customer Segments</p>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Schließen">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
 
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px; padding-bottom:100px; background-color: #F9F9FA; " id="kontakt">
+<div class="w3-container" style="padding:128px 16px; padding-bottom:100px; background-color: #F9F9FA; color:black;" id="kontakt">
   <h3 class="w3-center w3-xxxlarge w3-wide">KONTAKT &amp; TEAM</h3>
   <div style="background-color:#00AEFF; padding:7px; border-radius:5px; max-width:350px; margin:auto; margin-top:50px; margin-bottom:60px;">
     <p class="w3-center w3-large"><i class="fa fa-comments w3-xlarge"></i><br/>Interesse an einem Gespräch<br/>oder einer Demo unseres Prototyps?<br/>Gerne bei Daniel Busch<br/>und/oder Markus Linden melden!</p>
@@ -133,14 +208,14 @@ body, html {
       <h4>Prof. Dr. Markus Linden</h4>
       <p>Mentor</p>
       <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;markus.linden(at)th-koeln.de</p>      
-      <p><i class="fa fa-linkedin"></i></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/markus-linden-797a6717/">LinkedIn</a></p>
+      <p><i class="fa fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/markus-linden-797a6717/">LinkedIn</a></p>
     </div>
     <div style="margin-bottom:30px; padding-left:60px; padding-right:60px;  display: inline-block; min-width:360px; max-width:400px;">
       <img src="img/decider_daniel.png" style="width:149px; height:149px;">
       <h4>Daniel Busch</h4>
       <p>Entwickler Gameplay/UX/Texte</p>
       <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;daniel.busch(at)smail.th-koeln.de</p>
-      <p><i class="fa fa-linkedin"></i></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniel-busch-cologne/">LinkedIn</a></p>
+      <p><i class="fa fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniel-busch-cologne/">LinkedIn</a></p>
     </div>
   </div>
   <div style="text-align:center; margin:auto;">
@@ -174,8 +249,7 @@ body, html {
 
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up"></i>&nbsp;TOP</a>
-  <p>Diese Website basiert auf <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> (mal was anderes)</p>
-  
+  <p>Diese Website basiert auf <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> (mal was anderes)</p>  
 </footer>
 
  
